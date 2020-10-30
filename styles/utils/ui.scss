@@ -59,3 +59,11 @@
     color: var(--white-color);
   }
 }
+
+.activeLink {
+  @extend .link;
+  color: var(--dangerColor);
+  &:hover {
+    color: var(--main-color);
+  }
+}
