@@ -1,6 +1,7 @@
+import { FC } from 'react'
 import classes from './footer.module.scss'
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <div className={classes.footer}>
       <div className="container">
