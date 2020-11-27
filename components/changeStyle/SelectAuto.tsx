@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 
 interface selectProps {
   value: string
-  handleChange(e: React.ChangeEvent): void
+  handleChange: any
   itemList: string[]
   label: string
 }
